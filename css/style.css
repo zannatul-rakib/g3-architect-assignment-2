@@ -245,3 +245,45 @@ section.icons-section {
   font-size: 20px;
   color: #727272;
 }
+
+/* soponsors section  */
+.sponsors-section {
+  position: relative;
+  padding: 50px 0;
+}
+.sponsors-section .sponsor-text {
+  text-align: center;
+  margin: 20px 0;
+}
+.sponsor-text h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.sponsor-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.sponsors-section .sponsors {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.sponsors-section .sponsors .sponsor-img {
+  height: 50px;
+}
+.sponsors-section .sponsors .sponsor-img img {
+  height: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.sponsors-section .sponsors .sponsor-img img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
