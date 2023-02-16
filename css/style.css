@@ -12,7 +12,7 @@ body {
 }
 .container {
   position: relative;
-  width: 1140px;
+  width: 80%;
   margin: 0 auto;
 }
 .btn {
@@ -56,6 +56,7 @@ header nav .logo h2 {
   color: #131313;
   cursor: pointer;
 }
+
 header nav menu ul {
   position: relative;
   display: flex;
@@ -397,4 +398,137 @@ footer p {
   font-weight: 400;
   font-size: 20px;
   color: #424242;
+}
+
+/* Mobile Responsive design  */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  header nav {
+    display: grid;
+  }
+  header nav .logo h2 {
+    font-size: 30px;
+  }
+  .banner {
+    padding: 0 10px;
+  }
+  .banner .text-box {
+    width: 100%;
+    position: relative;
+  }
+  .banner .text-box h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .banner .text-box p {
+    margin-bottom: 15px;
+  }
+  .banner .banner-img {
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 15px;
+  }
+  header nav menu ul li {
+    font-size: 15px;
+  }
+  section.team-section {
+    display: grid;
+    gap: 50px;
+    padding: 50px 0;
+  }
+  .team-section .team-img-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .team-section .team-text-box {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .team-section .team-text-box h2 {
+    font-size: 35px;
+  }
+  .team-section .team-text-box p {
+    font-size: 15px;
+  }
+  section.architect {
+    display: grid;
+    gap: 50px;
+    padding: 20px 10px;
+    margin-bottom: 140px;
+  }
+  .architect .architect-text {
+    width: 100%;
+  }
+  .architect .architect-text h2 {
+    font-size: 35px;
+  }
+  .architect .architect-text p {
+    font-size: 15px;
+  }
+  .architect .architect-img {
+    width: 100%;
+  }
+  .ex-button {
+    top: 100%;
+    left: 25%;
+    font-size: 45px;
+  }
+  section.icons-section {
+    position: relative;
+    padding: 50px 10px;
+  }
+  .facts {
+    text-align: center;
+  }
+  .icons-section .facts h3 {
+    font-size: 35px;
+  }
+  .icons-section .icons {
+    position: relative;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .icon h1 {
+    font-size: 35px;
+  }
+  .icon h4 {
+    font-size: 15px;
+  }
+  .sponsors-section {
+    padding: 30px 10px;
+  }
+  .sponsor-text h2 {
+    font-size: 35px;
+  }
+  .sponsor-text p {
+    font-size: 15px;
+  }
+  .sponsors-section .sponsors {
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact .content {
+    display: grid;
+  }
+  .contact .content .formBx,
+  .contact .content .contactInfo {
+    padding: 0 10px;
+  }
 }
