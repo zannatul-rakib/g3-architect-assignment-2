@@ -1,200 +1,247 @@
 /* Global Style */
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
 }
 body {
-    font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 .container {
-    position: relative;
-    width: 1140px;
-    margin: 0 auto;
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
 }
 .btn {
-    background: #ff900e;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
+  background: #ff900e;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
 }
-.btn:hover
-{
-    background-color: #fa34fa;
+.btn:hover {
+  background-color: #fa34fa;
 }
 
 /* header section  */
 header {
-    background: rgba(255, 144, 14, 0.1);
+  background: rgba(255, 144, 14, 0.1);
 }
 header nav {
-    position: relative;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header nav .logo h2 {
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
-    cursor: pointer;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  cursor: pointer;
 }
 header nav menu ul {
-    position: relative;
-    display: flex;
-    gap: 30px;
+  position: relative;
+  display: flex;
+  gap: 30px;
 }
 header nav menu ul li a {
-    font-weight: 500;
-    font-size: 18px;
-    color: #424242;
-    cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  cursor: pointer;
 }
-header nav menu ul li a:hover
-{
-    color: #fa34fa;
+header nav menu ul li a:hover {
+  color: #fa34fa;
 }
-
 
 /* Banner section  */
-section.banner
-{
-    background: rgba(255, 144, 14, 0.1);
-    padding: 20px 0;
+section.banner {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 20px 0;
 }
 .banner .text-box {
-    position: relative;
-    padding: 20px 0;
-    width: 700px;
-    margin: auto;
-    text-align: center;
-  }
-  .banner .text-box h1 {
-    font-weight: 700;
-    font-size: 64px;
-    color: #131313;
-    margin-bottom: 20px;
-  }
-  .banner .text-box p {
-    margin-bottom: 20px;
-    color: #727272;
-  }
-  .banner .banner-img {
-    position: relative;
-    width: 100%;
-  }
-  .banner .banner-img img {
-    position: relative;
-    width: 100%;
-  }
+  position: relative;
+  padding: 20px 0;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.banner .text-box h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.banner .text-box p {
+  margin-bottom: 20px;
+  color: #727272;
+}
+.banner .banner-img {
+  position: relative;
+  width: 100%;
+}
+.banner .banner-img img {
+  position: relative;
+  width: 100%;
+}
 
-  /* Team Section  */
-  section.team-section {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    padding: 100px 0;
-  }
-  .team-section .team-img-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .team-section .team-img-box img {
-    height: 280px;
-  }
-  .team-section .team-text-box h2 {
-    font-weight: 500;
-    font-size: 45px;
-  }
-  .team-section .team-text-box h2 span {
-    color: #727272;
-  }
-  .team-section .team-text-box h2:nth-child(2) {
-    color: #ff900e;
-    margin-bottom: 10px;
-  }
-  .team-section .team-text-box p {
-    margin-bottom: 20px;
-    color: #727272;
-  }
+/* Team Section  */
+section.team-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0;
+}
+.team-section .team-img-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.team-section .team-img-box img {
+  height: 280px;
+}
+.team-section .team-text-box h2 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.team-section .team-text-box h2 span {
+  color: #727272;
+}
+.team-section .team-text-box h2:nth-child(2) {
+  color: #ff900e;
+  margin-bottom: 10px;
+}
+.team-section .team-text-box p {
+  margin-bottom: 20px;
+  color: #727272;
+}
 
+/* Architect Section  */
+section.architect {
+  position: relative;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.architect .architect-text {
+  position: relative;
+  width: 50%;
+}
+.architect .architect-text h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+}
+.architect .architect-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 20px;
+}
+.architect .architect-text .text-card {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+}
+.architect .architect-text .text-card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 5px;
+}
+.architect .architect-img {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.architect .architect-img img {
+  width: 100%;
+}
+.ex-button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff900e;
+  display: grid;
+  gap: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ex-button span {
+  font-weight: 500;
+  font-size: 25px;
+}
 
-  /* Architect Section  */
-  section.architect {
-    position: relative;
-    padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-  }
-  .architect .architect-text {
-    position: relative;
-    width: 50%;
-  }
-  .architect .architect-text h2 {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    border-left: 5px solid #ff900e;
-  }
-  .architect .architect-text p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    margin-bottom: 20px;
-  }
-  .architect .architect-text .text-card {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background: #fff;
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
-  }
-  .architect .architect-text .text-card h3 {
-    font-weight: 600;
-    font-size: 20px;
-    color: #131313;
-    margin-bottom: 5px;
-  }
-  .architect .architect-img {
-    position: relative;
-    width: 50%;
-    height: 100%;
-  }
-  .architect .architect-img img {
-    width: 100%;
-  }
-  .ex-button {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    padding: 10px 20px;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 70px;
-    text-align: center;
-    color: #ffffff;
-    background: #ff900e;
-    display: grid;
-    gap: 0;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  .ex-button span {
-    font-weight: 500;
-    font-size: 25px;
-  }
+/* icons section  */
+section.icons-section {
+  position: relative;
+  padding: 100px 0;
+}
+.icons-section .facts {
+  position: relative;
+  margin-bottom: 50px;
+}
+.icons-section .facts h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.icons-section .facts p {
+  color: #727272;
+  font-size: 15px;
+}
+.icons-section .icons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons-section .icons .icon {
+  text-align: center;
+  border: 1px solid #ff900e;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+.icon img {
+  height: 50px;
+  transform: rotate(45deg);
+  transition: 0.4s ease-in-out;
+}
+.icon:hover img {
+  transform: rotate(0deg);
+}
+.icon h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+.icon h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
