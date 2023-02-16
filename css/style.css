@@ -287,3 +287,19 @@ section.icons-section {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
 }
+
+/* footer section  */
+footer {
+  background: #fff4e7;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+}
