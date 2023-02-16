@@ -128,3 +128,73 @@ section.banner
     margin-bottom: 20px;
     color: #727272;
   }
+
+
+  /* Architect Section  */
+  section.architect {
+    position: relative;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .architect .architect-text {
+    position: relative;
+    width: 50%;
+  }
+  .architect .architect-text h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-left: 5px solid #ff900e;
+  }
+  .architect .architect-text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+  }
+  .architect .architect-text .text-card {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+  }
+  .architect .architect-text .text-card h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 5px;
+  }
+  .architect .architect-img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+  }
+  .architect .architect-img img {
+    width: 100%;
+  }
+  .ex-button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+    background: #ff900e;
+    display: grid;
+    gap: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .ex-button span {
+    font-weight: 500;
+    font-size: 25px;
+  }
