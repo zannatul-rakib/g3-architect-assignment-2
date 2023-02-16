@@ -28,6 +28,16 @@ body {
 .btn:hover {
   background-color: #fa34fa;
 }
+.heading {
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
 
 /* header section  */
 header {
@@ -288,12 +298,97 @@ section.icons-section {
   -webkit-filter: grayscale(0);
 }
 
+/* contact us design  */
+.contact {
+  background: #111;
+}
+.contact .content {
+  position: relative;
+  display: flex;
+}
+.contactInfo {
+  min-width: 40%;
+}
+.contactInfoBx {
+  position: relative;
+}
+.contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.contactInfoBx .box .icon {
+  min-width: 40px;
+  padding-top: 4px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.contactInfoBx .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contactInfoBx .box .text h3 {
+  font-weight: 500;
+  color: #ff900e;
+  margin-bottom: 0;
+}
+.formBx {
+  min-width: 60%;
+}
+.formBx form {
+  display: flex;
+  flex-direction: column;
+}
+.formBx form h3,
+.contactInfo h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.formBx form input,
+.formBx form textarea {
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: #222;
+  color: #fff;
+  resize: none;
+}
+.formBx form textarea {
+  min-height: 200px;
+}
+.formBx form input::placeholder,
+.formBx form textarea::placeholder {
+  color: #999;
+}
+.formBx form input[type="submit"] {
+  max-width: 100px;
+  background: #ff900e;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.formBx form input[type="submit"]:hover {
+  background: #fa34fa;
+}
+
 /* footer section  */
 footer {
+  margin: 100px 0;
   background: #fff4e7;
   height: 100px;
   text-align: center;
-  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
